@@ -5,11 +5,12 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import Heading from '@/components/ui/Heading';
 import Card from '@/components/ui/home/Card';
+import CallToAction from '@/components/ui/CallToAction';
 
 export default function Home() {
   return (
     <div className="mb-[-350px] flex flex-col items-center justify-between">
-      <section className="mt-[5.125rem] lg:mt-[4.0625rem]">
+      <section className="mt-[5.125rem] px-[24px] lg:mt-[4.0625rem]">
         <div className="relative md:mb-[6.625rem]">
           <h1 className="max-w-[49.6875rem] text-center text-[2.5rem]/[140%] font-semibold -tracking-[1.6px] lg:text-7xl/[125%] lg:-tracking-[4.32px]">
             Discover Hope, Find Recovery, Reclaim Your Life with Us.
@@ -34,10 +35,10 @@ export default function Home() {
           />
           <Image
             alt=""
-            width="334"
+            width="434"
             height="482"
             src="/images/home/mockup-mobile.png"
-            className="mx-auto mt-[5.125rem] block md:hidden"
+            className="mx-auto mt-[3rem] block md:hidden"
           />
         </div>
 
@@ -129,58 +130,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative -top-[308px] w-[100%] justify-center px-[24px] lg:flex">
-        <div className="relative block rounded-3xl bg-gradient-to-r from-primary to-[#069d98] lg:max-w-[70rem]">
-          <div
-            style={{
-              backgroundImage: "url('/images/home/use-get-care-ellipse.svg')",
-              backgroundPosition: 'right bottom',
-              backgroundRepeat: 'no-repeat',
-            }}
-            className="px-[18px] pt-[4.875rem] lg:pb-[6.5rem]"
-          >
-            <div className="flex flex-col justify-between gap-[14.4304px] lg:flex-row">
-              <div>
-                <div className="lg:ml-16 lg:mr-[31.9375rem]">
-                  <h2 className="mb-6 text-center text-[2rem] font-bold  -tracking-[1.28px] text-white lg:max-w-[34.0625rem] lg:text-left lg:text-[3.5rem]/[135%] lg:-tracking-[2.8px]">
-                    Use GetCare anywhere, anytime!
-                  </h2>
-                  <p className="mx-auto mb-20 max-w-[26.3125rem]  text-center text-lg/[170%] -tracking-[0.9px] text-primary-100 lg:mx-0 lg:text-left">
-                    We are a platform dedicated to helping people{' '}
-                    <br className="hidden lg:block" /> get rid of dist and
-                    wellbeing through
-                  </p>
-                </div>
-                <div className="flex justify-center lg:ml-[3.75rem] lg:block">
-                  <Button
-                    className="bg-primary-500 p-4 hover:shadow-none"
-                    href="#"
-                  >
-                    Download App
-                  </Button>
-                </div>
-              </div>
-
-              <div className="bottom-0 right-[3.905rem] mx-auto lg:absolute lg:mx-0">
-                <div className="relative mx-auto h-[294.66px] w-[345px] max-w-[75vw] md:mx-0 md:h-[683px] md:w-[434px] lg:-mt-[200px] ">
-                  <Image
-                    src="/images/about/MockUp.png"
-                    alt=""
-                    fill={true}
-                    className="hidden lg:block"
-                  />
-                  <Image
-                    src="/images/home/change.png"
-                    alt=""
-                    fill={true}
-                    className="lg:hidden"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CallToAction className="-top-[308px] lg:mt-[80px]" />
     </div>
   );
 }

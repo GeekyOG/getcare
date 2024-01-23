@@ -10,17 +10,46 @@ import Container from '@/components/ui/Container';
 import LogoBox from '@/components/ui/LogoBox';
 
 import TabNavigation from './TabNavigation';
+import Image from 'next/image';
 
 export default function Navbar() {
   const pathname = usePathname();
 
   const getCurrentHeadingClassName = () => {
     if (pathname === '/creatives') {
-      return 'bg-primary-50 border-none';
+      return 'bg-primary-50 lg:border-none';
     } else if (pathname === '/contact-us') {
-      return 'bg-[#fffbf9] border-none';
+      return 'bg-[#fffbf9] lg:border-none';
     } else {
       return 'bg-white';
+    }
+  };
+
+  const getCurrentHeadingIconClassName = () => {
+    if (pathname === '/creatives') {
+      return 'bg-primary-200';
+    } else if (pathname === '/contact-us') {
+      return 'bg-secondary-200';
+    } else {
+      return 'bg-primary-100';
+    }
+  };
+
+  const getCurrentIconClassName = () => {
+    if (pathname === '/contact-us') {
+      return '/images/home/contactmenu-icon.svg';
+    } else {
+      return '/images/home/menu.svg';
+    }
+  };
+
+  const getCurrentIconWrapperClassName = () => {
+    if (pathname === '/creatives') {
+      return 'bg-primary-50';
+    } else if (pathname === '/contact-us') {
+      return 'bg-secondary-100';
+    } else {
+      return 'bg-primary-50';
     }
   };
 
@@ -28,7 +57,7 @@ export default function Navbar() {
     <ElevationScroll>
       <nav
         className={clsx(
-          'fixed z-50 w-full border-[1px] border-neutral-150 py-[2rem] lg:py-[2.3125rem]',
+          'fixed z-50 w-full border-[1px] border-neutral-150 lg:py-[2.3125rem] lg:py-[2rem]',
           getCurrentHeadingClassName(),
         )}
       >
@@ -45,6 +74,18 @@ export default function Navbar() {
             <Button size="md" className="hidden min-w-[147px] lg:flex">
               Get Started
             </Button>
+
+            <div
+              className={`px-[1.75rem]  pb-[24px] pt-[2rem] lg:hidden ${getCurrentIconWrapperClassName()}`}
+            >
+              <div
+                className={`rounded-[8px]  p-[1rem] ${getCurrentHeadingIconClassName()}`}
+              >
+                <div className="relative h-[2rem] w-[2rem]">
+                  <Image src={`${getCurrentIconClassName()}`} fill alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
       </nav>

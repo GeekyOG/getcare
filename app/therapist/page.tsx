@@ -11,7 +11,7 @@ import Card from '@/components/ui/therapy/Card';
 export default function Therapist() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <section className="mt-20">
+      <section className="mt-20 px-[24px] lg:px-0">
         <div className="mb-[127px]">
           <Heading className="text-center">
             Healing <span className="text-secondary-600">Hearts</span>, One
@@ -22,21 +22,21 @@ export default function Therapist() {
           </div>
         </div>
       </section>
-      <section className="w-full">
-        <Container className="flex flex-col items-center justify-center gap-[20px] md:flex-row md:gap-[25px] ">
+      <section className="w-full overflow-hidden ">
+        <Container className="flex flex-col items-center justify-center gap-[20px] px-[24px] lg:flex-row lg:gap-[25px] lg:px-0">
           <Image
             alt=""
             width="261"
             height="420"
             src="/images/therapy/lady-wave.svg"
-            className="hidden  md:block"
+            className="hidden  lg:block"
           />
           <Image
             alt=""
             width="261"
             height="420"
             src="/images/therapy/mobile.png"
-            className="block w-[100%] md:hidden"
+            className="block w-[100%] lg:hidden"
           />
 
           <Image
@@ -44,42 +44,43 @@ export default function Therapist() {
             width="548"
             height="502"
             src="/images/therapy/doctor-laptop.svg"
-            className="hidden md:block"
+            className="hidden lg:block"
           />
-          <div className="flex gap-[20px]  md:flex-col md:gap-[25px]">
-            <div className="overflow-hidden md:w-[205px]">
+          <div className="flex gap-[20px]  lg:flex-col lg:gap-[25px]">
+            <div className="overflow-hidden lg:w-[205px]">
               <Image
                 alt=""
-                width="261"
+                width="461"
                 height="205"
                 src="/images/therapy/lady-laptop.svg"
               />
             </div>
 
-            <div className="overflow-hidden md:w-[205px]">
+            <div className="overflow-hidden lg:w-[205px]">
               <Image
                 alt=""
-                width="261"
+                width="461"
                 height="205"
                 src="/images/therapy/lady-pen.svg"
               />
             </div>
           </div>
         </Container>
-        <div className="-mt-[180px] w-full bg-secondary-200  pb-[124px] pt-[330px] md:-mt-[210px]">
+        <div className="-mt-[180px] w-full bg-secondary-200  pb-[124px] pt-[240px] md:-mt-[330px] md:pt-[430px]  lg:-mt-[210px] lg:pt-[330px]">
           <Container>
-            <div className="mx-auto max-w-[938px] ">
+            <div className="md:max-w-auto mx-auto max-w-[372px] md:max-w-[500px] lg:max-w-[938px]">
               <p className="text-center text-[18px] font-[500] leading-[31.5px] -tracking-[0.18px] text-secondary-800 md:text-[2.5rem]/[170%] md:-tracking-[2px]">
-                We are a platform dedicated to helping people <br />
-                get rid of dist and wellbeing through therapy sessions,
-                journaling, relaxation, and community support.
+                We are a platform dedicated to helping people
+                <br className="hidden lg:block" /> get rid of dist and wellbeing
+                through therapy sessions, journaling, relaxation, and community
+                support.
               </p>
               <p className="text-[2rem]/[170%] -tracking-[1.6px] text-white"></p>
             </div>
           </Container>
         </div>
       </section>
-      <section className="w-full  pt-[138px]">
+      <section className="w-full  px-[24px] pt-[138px] lg:px-0">
         <Container>
           <SubHeading className="md:max-w-[666px]">
             Discover Hope, Find Recovery, Reclaim Your Life with Us.
@@ -147,8 +148,8 @@ export default function Therapist() {
       </section>
 
       <section>
-        <Container>
-          <div className="to-secondary-1000 mx-auto mt-[28px] rounded-[18px] bg-gradient-to-tr from-secondary-550 text-neutral md:-mt-[28px]">
+        <Container className="px-[24px] lg:px-0">
+          <div className="mx-auto mt-[28px] overflow-hidden rounded-[18px] bg-gradient-to-tr from-secondary-550 to-secondary-1000 text-neutral md:-mt-[28px]">
             <div
               style={{
                 backgroundImage:
@@ -165,8 +166,7 @@ export default function Therapist() {
                 We are a platform dedicated to helping people get rid of dist
                 and wellbeing through
               </p>
-
-              <Button className="mx-auto w-[160px] bg-neutral text-neutral-700 md:w-[230px]">
+              <Button className="mx-auto bg-neutral text-neutral-700">
                 Become a Professional
               </Button>
             </div>

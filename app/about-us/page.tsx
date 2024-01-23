@@ -13,17 +13,17 @@ function About() {
   return (
     <main className=" flex min-h-screen flex-col items-center ">
       <section className="mt-20">
-        <div>
+        <div className="px-[24px] lg:px-0">
           <Heading className="text-center">
             GetCare,
-            <br className="block md:hidden" /> your companion to discovering
+            <br className="block lg:hidden" /> your companion to discovering
             life
           </Heading>
         </div>
       </section>
       <section className="mt-20 flex w-[100vw] flex-col items-center overflow-hidden ">
-        <div className="z-10 rounded-[18px] p-5 md:border-2 md:border-solid md:border-primary-250">
-          <div className="relative  h-[432px] w-[759px] md:h-[450px] ">
+        <div className="z-10 rounded-[18px] p-5 lg:border-2 lg:border-solid lg:border-primary-250">
+          <div className="relative  h-[432px] w-[759px] lg:h-[450px] ">
             <Image alt="" fill={true} src="/images/about/hero.png" />
           </div>
         </div>
@@ -36,7 +36,7 @@ function About() {
               className=""
             />
           </div>
-          <Container className="flex flex-col items-center">
+          <Container className="flex flex-col items-center px-[24px] lg:px-0">
             <div className="mx-auto">
               <div>
                 <Heading className="z-10 text-left text-[2rem] md:mt-[40px]">
@@ -44,7 +44,7 @@ function About() {
                 </Heading>
               </div>
 
-              <div className="mt-[40px] flex max-w-[765px] flex-col gap-[40px]">
+              <div className="mt-[40px] flex max-w-[765px] flex-col gap-[40px] ">
                 <Text className=" text-neutral-450">
                   We are a platform dedicated to helping people get rid of dist
                   and wellbeing through therapy sessions, journaling,

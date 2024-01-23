@@ -46,7 +46,7 @@ const ElevationScroll: React.FC<ElevationScrollProps> = ({
   return React.cloneElement(children, {
     style: {
       boxShadow: isScrolled ? elevation : 'none',
-      padding: isScrolled ? '10px 0' : '',
+      // padding: isScrolled ? '10px 0' : '',
       transition: 'all 0.2s ease-in-out',
     },
   } as React.HTMLAttributes<HTMLElement>);

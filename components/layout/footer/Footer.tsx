@@ -8,8 +8,8 @@ import LogoBox from '@/components/ui/LogoBox';
 
 function Footer() {
   return (
-    <div className=" px-[24px] pb-[100px]">
-      <Container className="flex flex-wrap justify-center">
+    <div className="pb-[100px]">
+      <div className="flex flex-wrap justify-center px-[24px] ">
         <div>
           <div className="flex flex-wrap md:flex-nowrap">
             <div className="flex flex-col gap-[18px]">
@@ -53,30 +53,29 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="mt-20 flex flex-wrap gap-[32px]">
-            <div className="w-[100%] rounded-[16px] bg-neutral-100 pb-[40px] pl-[20px] pt-[32px] md:w-auto md:pb-[50px] md:pl-[24px] md:pr-[57px] md:pt-[35px]">
+          <div className="mt-20 flex flex flex-wrap gap-[32px]">
+            <div className="w-[100%] rounded-[16px] bg-neutral-100 pb-[40px] pl-[20px] pt-[32px] md:w-auto md:pb-[50px] md:pl-[24px] md:pr-[57px] md:pt-[35px] lg:flex-none">
               <p className="max-w-[333px] text-[0.75rem] leading-[200%] -tracking-[0.12px] text-neutral-350 md:max-w-[826px] md:text-[1rem] md:-tracking-[0.16px]">
                 To access and use all Apple Card features and products available
                 only to Apple Card users, you must add Apple Card to Wallet on
                 an iPhone or iPad that supports and has the latest version of
-                iOS or iPadOS. <br className="mt-10 block lg:hidden" />
+                iOS or iPadOS. <span className="mt-10 block lg:hidden"></span>
                 Apple Card is subject to credit approval, available only for
                 qualifying applicants in the United States, and issued by
                 Goldman Sachs Bank.
               </p>
             </div>
-            <div>
+            <div className="hidden flex-none lg:block">
               <Image
                 src="/images/home/qr-code.svg"
                 height="180"
                 width="180"
                 alt=""
-                className="hidden lg:block"
               />
             </div>
           </div>
         </div>
-      </Container>
+      </div>
 
       <hr className="mt-[67px] bg-neutral-200" />
     </div>

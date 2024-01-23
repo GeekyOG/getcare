@@ -7,7 +7,7 @@ import SubHeading from '@/components/ui/SubHeading';
 
 function Creatives() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="-mt-10 flex min-h-screen flex-col items-center justify-between">
       <section className="w-full  bg-gradient-to-b  from-primary-50 to-neutral pt-20">
         <div className="mb-[127px] w-full">
           <Heading className="mx-auto text-center">
