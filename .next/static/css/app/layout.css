@@ -999,6 +999,9 @@ video {
 .gap-\[64\.24px\] {
   gap: 64.24px;
 }
+.gap-8 {
+  gap: 2rem;
+}
 .gap-x-\[1\.625rem\] {
   -moz-column-gap: 1.625rem;
        column-gap: 1.625rem;
@@ -1378,6 +1381,9 @@ video {
 }
 .pt-\[9\.125rem\] {
   padding-top: 9.125rem;
+}
+.pb-\[10\.375rem\] {
+  padding-bottom: 10.375rem;
 }
 .text-left {
   text-align: left;
@@ -2212,6 +2218,10 @@ button:focus-visible {
 
   .lg\:pb-\[6\.5rem\] {
     padding-bottom: 6.5rem;
+  }
+
+  .lg\:pb-\[13\.25rem\] {
+    padding-bottom: 13.25rem;
   }
 
   .lg\:text-left {

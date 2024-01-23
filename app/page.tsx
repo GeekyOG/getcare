@@ -1,8 +1,10 @@
+import './homepage.css';
+
 import Image from 'next/image';
 
 import { Button } from '@/components/ui/Button';
-import Card from '@/components/ui/home/Card';
 import Heading from '@/components/ui/Heading';
+import Card from '@/components/ui/home/Card';
 
 export default function Home() {
   return (
@@ -42,47 +44,37 @@ export default function Home() {
         <Image
           priority
           alt=""
-          width="831"
-          height="502"
+          width="836"
+          height="449"
+          quality={100}
           src="/images/home/homepage-hero.png"
           className="hidden md:block"
         />
       </section>
 
       <section className="w-full bg-gradient-to-r from-primary to-[#05807C]">
-        <div
-          style={{
-            backgroundImage:
-              "url('/images/home/ellipse-left.svg'), url('/images/home/line-with-ellipse-up.svg'), url('/images/home/ellipse-right.svg'), url('/images/home/line-with-ellipse-down.svg')",
-            backgroundPosition:
-              'left, top 120px left 148px, right bottom, right 148px bottom 188px',
-            backgroundRepeat: 'no-repeat, no-repeat, no-repeat, no-repeat',
-          }}
-          className="pb-[13.25rem] pt-[9.125rem]"
-        >
+        <div className="hero-background-container pb-[10.375rem] pt-[9.125rem] lg:pb-[13.25rem]">
           <div className="mx-auto max-w-[49.1875rem] px-[24px] lg:px-0 xl:px-0">
             <h2 className="text mb-14 text-[2.5rem]/none font-bold -tracking-[1.6px] text-white md:text-[4rem]/none md:-tracking-[3.2px]">
               Hello Friend!
             </h2>
-            <div className="flex max-w-[47.25rem] flex-col gap-10">
-              <h3 className="md:leading-0 text-[1.125rem]/none font-semibold leading-[36px] -tracking-[1.18px] text-primary-100 md:text-[2rem]/[170%] md:-tracking-[1.6px]">
-                We are a platform dedicated to helping people
-                <br className="hidden lg:block" />
-                get rid of dist and wellbeing through therapy sessions,
-                journaling, relaxation, and community support.
+            <div className="flex max-w-[47.25rem] flex-col gap-8">
+              <h3 className="md:leading-0 text-[1.125rem]/none font-medium leading-[36px] -tracking-[1.18px] text-primary-100 md:text-[2rem]/[170%] md:-tracking-[1.6px]">
+                Here we understand the struggle. The fight
+                <br className="hidden lg:block" /> to break free and quit.
               </h3>
 
-              <h3 className="-tracking-[1.18px text-[1.125rem]/none font-semibold leading-[36px] text-primary-300 md:text-[2rem]/[170%] md:-tracking-[1.6px]">
-                Our goal is to provide a safe and welcoming space
-                <br className="hidden lg:block" /> where you can find the help
-                and support you need to feel better and live a happier,
-                healthier life.
+              <h3 className="text-[1.125rem]/none font-medium leading-[36px] -tracking-[1.18px] text-primary-300 md:text-[2rem]/[170%] md:-tracking-[1.6px]">
+                Here we see the light at the end of the tunnel and{' '}
+                <br className="hidden lg:block" /> we are dedicated to helping
+                you reach it.
               </h3>
 
-              <h3 className="md:leading-0 text-[1.125rem]/none font-semibold leading-[36px] -tracking-[1.18px] text-primary-500 md:text-[2rem]/[170%] md:-tracking-[1.6px]">
-                Our goal is to provide a safe and welcoming space where you can
-                find the help and support you need to feel better and live a
-                happier, healthier life.
+              <h3 className="md:leading-0 text-[1.125rem]/none font-medium leading-[36px] -tracking-[1.18px] text-primary-500 md:text-[2rem]/[170%] md:-tracking-[1.6px]">
+                Our goal is to provide the support and care{' '}
+                <br className="hidden lg:block" /> you need to help you regain
+                your confidence <br className="hidden lg:block" /> and live
+                better.
               </h3>
             </div>
           </div>

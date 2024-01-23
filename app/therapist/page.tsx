@@ -12,12 +12,12 @@ export default function Therapist() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <section className="mt-20">
-        <div className=" mb-[127px]">
+        <div className="mb-[127px]">
           <Heading className="text-center">
             Healing <span className="text-secondary-600">Hearts</span>, One
             Session at a Time.
           </Heading>
-          <div className=" mt-10 flex justify-center">
+          <div className="mt-10 flex justify-center">
             <Button className="bg-secondary-600 ">Become a Professional</Button>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Therapist() {
             className="hidden md:block"
           />
           <div className="flex gap-[20px]  md:flex-col md:gap-[25px]">
-            <div className=" overflow-hidden md:w-[205px]">
+            <div className="overflow-hidden md:w-[205px]">
               <Image
                 alt=""
                 width="261"
@@ -56,7 +56,7 @@ export default function Therapist() {
               />
             </div>
 
-            <div className=" overflow-hidden md:w-[205px]">
+            <div className="overflow-hidden md:w-[205px]">
               <Image
                 alt=""
                 width="261"
@@ -79,7 +79,7 @@ export default function Therapist() {
           </Container>
         </div>
       </section>
-      <section className=" w-full  pt-[138px]">
+      <section className="w-full  pt-[138px]">
         <Container>
           <SubHeading className="md:max-w-[666px]">
             Discover Hope, Find Recovery, Reclaim Your Life with Us.
@@ -100,7 +100,7 @@ export default function Therapist() {
                 className="mx-auto mt-10 block"
               />
             </Box>
-            <div className=" mx-auto mt-[28px] block max-w-[960px] rounded-[18px] bg-secondary-100 px-[30px] pb-[358px]  pt-[40px] md:hidden md:px-[156px]  md:pb-[169px] md:pt-[69px]">
+            <div className="mx-auto mt-[28px] block max-w-[960px] rounded-[18px] bg-secondary-100 px-[30px] pb-[358px]  pt-[40px] md:hidden md:px-[156px]  md:pb-[169px] md:pt-[69px]">
               <Sub className=" leading-[39.2px] md:leading-[54.4px]">
                 Live feeds to educate and guide you on you journey
               </Sub>
@@ -136,7 +136,7 @@ export default function Therapist() {
                 />
               </div>
             </Box>
-            <div className=" mx-auto mt-[28px] hidden max-w-[960px] rounded-[18px] bg-secondary-100 px-[30px] pb-[358px]  pt-[40px] md:block md:px-[156px] md:pb-[169px] md:pt-[69px]">
+            <div className="mx-auto mt-[28px] hidden max-w-[960px] rounded-[18px] bg-secondary-100 px-[30px] pb-[358px]  pt-[40px] md:block md:px-[156px] md:pb-[169px] md:pt-[69px]">
               <Sub className=" text-center leading-[39.2px]  md:leading-[54.4px]">
                 We are a platform dedicated to helping people get rid of dist
                 and wellbeing through therapy sessions,

@@ -9,11 +9,11 @@ function Creatives() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <section className="w-full  bg-gradient-to-b  from-primary-50 to-neutral pt-20">
-        <div className=" mb-[127px] w-full">
+        <div className="mb-[127px] w-full">
           <Heading className="mx-auto text-center">
             Encourage Hope through Work of Art
           </Heading>
-          <div className=" mt-10 flex justify-center">
+          <div className="mt-10 flex justify-center">
             <Button className="bg-primary">Become a Creative</Button>
           </div>
         </div>
@@ -54,7 +54,7 @@ function Creatives() {
               wellbeing through
             </p>
 
-            <Button className=" w-[160px] bg-neutral text-neutral-700 md:w-[230px]">
+            <Button className="w-[160px] bg-neutral text-neutral-700 md:w-[230px]">
               Become a Professional
             </Button>
           </div>

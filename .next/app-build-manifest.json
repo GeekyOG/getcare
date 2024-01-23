@@ -19,12 +19,18 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/page.js",
+      "static/css/app/page.css"
     ],
     "/contact-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact-us/page.js"
+    ],
+    "/creatives/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/creatives/page.js"
     ]
   }
 }
