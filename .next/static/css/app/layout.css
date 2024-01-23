@@ -1,0 +1,2352 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./fonts/matter.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-Light.01a59a56.otf) format('opentype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-LightItalic.b8260daa.otf) format('opentype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-Regular.090f5f92.otf) format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-RegularItalic.677d9f89.otf) format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-Medium.4e6a5aac.otf) format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-MediumItalic.0bf0cf88.otf) format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-SemiBold.403e6741.otf) format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-SemiBoldItalic.10854a5a.otf) format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-Bold.7e8a0a54.otf) format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-BoldItalic.17fe0802.otf) format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-Heavy.f5324da4.otf) format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url(/_next/static/media/Matter-HeavyItalic.555b93e2.otf) format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/*
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Matter, Inter, ui-sans-serif, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.-right-\[10rem\] {
+  right: -10rem;
+}
+.-right-\[270px\] {
+  right: -270px;
+}
+.-top-\[2\.1875rem\] {
+  top: -2.1875rem;
+}
+.-top-\[308px\] {
+  top: -308px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.right-\[120px\] {
+  right: 120px;
+}
+.right-\[3\.905rem\] {
+  right: 3.905rem;
+}
+.top-\[1\.25rem\] {
+  top: 1.25rem;
+}
+.top-\[350px\] {
+  top: 350px;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-50 {
+  z-index: 50;
+}
+.m-auto {
+  margin: auto;
+}
+.-mx-\[8px\] {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.-mb-\[308px\] {
+  margin-bottom: -308px;
+}
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+.-mt-20 {
+  margin-top: -5rem;
+}
+.-mt-\[180px\] {
+  margin-top: -180px;
+}
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mb-\[-350px\] {
+  margin-bottom: -350px;
+}
+.mb-\[127px\] {
+  margin-bottom: 127px;
+}
+.mb-\[4\.5rem\] {
+  margin-bottom: 4.5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-\[240px\] {
+  margin-top: 240px;
+}
+.mt-\[24px\] {
+  margin-top: 24px;
+}
+.mt-\[26\.5px\] {
+  margin-top: 26.5px;
+}
+.mt-\[28px\] {
+  margin-top: 28px;
+}
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+.mt-\[48px\] {
+  margin-top: 48px;
+}
+.mt-\[5\.125rem\] {
+  margin-top: 5.125rem;
+}
+.mt-\[56\.3px\] {
+  margin-top: 56.3px;
+}
+.mt-\[56px\] {
+  margin-top: 56px;
+}
+.mt-\[67px\] {
+  margin-top: 67px;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.h-14 {
+  height: 3.5rem;
+}
+.h-\[150px\] {
+  height: 150px;
+}
+.h-\[28px\] {
+  height: 28px;
+}
+.h-\[294\.66px\] {
+  height: 294.66px;
+}
+.h-\[432px\] {
+  height: 432px;
+}
+.h-\[48px\] {
+  height: 48px;
+}
+.h-\[500px\] {
+  height: 500px;
+}
+.h-\[560px\] {
+  height: 560px;
+}
+.h-\[56px\] {
+  height: 56px;
+}
+.h-\[913px\] {
+  height: 913px;
+}
+.h-full {
+  height: 100%;
+}
+.min-h-12 {
+  min-height: 3rem;
+}
+.min-h-14 {
+  min-height: 3.5rem;
+}
+.min-h-16 {
+  min-height: 4rem;
+}
+.min-h-\[70vh\] {
+  min-height: 70vh;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[100vw\] {
+  width: 100vw;
+}
+.w-\[139px\] {
+  width: 139px;
+}
+.w-\[154px\] {
+  width: 154px;
+}
+.w-\[160px\] {
+  width: 160px;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[210px\] {
+  width: 210px;
+}
+.w-\[28px\] {
+  width: 28px;
+}
+.w-\[345px\] {
+  width: 345px;
+}
+.w-\[364px\] {
+  width: 364px;
+}
+.w-\[365px\] {
+  width: 365px;
+}
+.w-\[50\%\] {
+  width: 50%;
+}
+.w-\[500px\] {
+  width: 500px;
+}
+.w-\[759px\] {
+  width: 759px;
+}
+.w-full {
+  width: 100%;
+}
+.min-w-\[12\.25rem\] {
+  min-width: 12.25rem;
+}
+.min-w-\[147px\] {
+  min-width: 147px;
+}
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
+.max-w-\[1120px\] {
+  max-width: 1120px;
+}
+.max-w-\[26\.3125rem\] {
+  max-width: 26.3125rem;
+}
+.max-w-\[331px\] {
+  max-width: 331px;
+}
+.max-w-\[333px\] {
+  max-width: 333px;
+}
+.max-w-\[41\.625rem\] {
+  max-width: 41.625rem;
+}
+.max-w-\[412px\] {
+  max-width: 412px;
+}
+.max-w-\[421px\] {
+  max-width: 421px;
+}
+.max-w-\[467px\] {
+  max-width: 467px;
+}
+.max-w-\[47\.25rem\] {
+  max-width: 47.25rem;
+}
+.max-w-\[49\.1875rem\] {
+  max-width: 49.1875rem;
+}
+.max-w-\[49\.6875rem\] {
+  max-width: 49.6875rem;
+}
+.max-w-\[530px\] {
+  max-width: 530px;
+}
+.max-w-\[664px\] {
+  max-width: 664px;
+}
+.max-w-\[70rem\] {
+  max-width: 70rem;
+}
+.max-w-\[75vw\] {
+  max-width: 75vw;
+}
+.max-w-\[765px\] {
+  max-width: 765px;
+}
+.max-w-\[795px\] {
+  max-width: 795px;
+}
+.max-w-\[938px\] {
+  max-width: 938px;
+}
+.max-w-\[960px\] {
+  max-width: 960px;
+}
+.max-w-xl {
+  max-width: 36rem;
+}
+.flex-none {
+  flex: none;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-10 {
+  gap: 2.5rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-2\.5 {
+  gap: 0.625rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-\[10px\] {
+  gap: 10px;
+}
+.gap-\[14\.4304px\] {
+  gap: 14.4304px;
+}
+.gap-\[14px\] {
+  gap: 14px;
+}
+.gap-\[16px\] {
+  gap: 16px;
+}
+.gap-\[18px\] {
+  gap: 18px;
+}
+.gap-\[19\.12px\] {
+  gap: 19.12px;
+}
+.gap-\[20px\] {
+  gap: 20px;
+}
+.gap-\[24px\] {
+  gap: 24px;
+}
+.gap-\[26px\] {
+  gap: 26px;
+}
+.gap-\[28px\] {
+  gap: 28px;
+}
+.gap-\[32px\] {
+  gap: 32px;
+}
+.gap-\[34px\] {
+  gap: 34px;
+}
+.gap-\[40px\] {
+  gap: 40px;
+}
+.gap-\[44px\] {
+  gap: 44px;
+}
+.gap-\[64\.24px\] {
+  gap: 64.24px;
+}
+.gap-x-\[1\.625rem\] {
+  -moz-column-gap: 1.625rem;
+       column-gap: 1.625rem;
+}
+.gap-y-\[1\.75rem\] {
+  row-gap: 1.75rem;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+.rounded-\[12px\] {
+  border-radius: 12px;
+}
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
+.rounded-\[18px\] {
+  border-radius: 18px;
+}
+.rounded-\[19px\] {
+  border-radius: 19px;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-\[1px\] {
+  border-width: 1px;
+}
+.border-x {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+.border-x-2 {
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-none {
+  border-style: none;
+}
+.border-neutral-150 {
+  --tw-border-opacity: 1;
+  border-color: rgb(242 242 242 / var(--tw-border-opacity));
+}
+.border-neutral-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(230 230 230 / var(--tw-border-opacity));
+}
+.bg-\[\#fffbf9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 249 / var(--tw-bg-opacity));
+}
+.bg-neutral {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-neutral-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+.bg-neutral-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 230 230 / var(--tw-bg-opacity));
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 182 176 / var(--tw-bg-opacity));
+}
+.bg-primary-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 246 245 / var(--tw-bg-opacity));
+}
+.bg-primary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 250 250 / var(--tw-bg-opacity));
+}
+.bg-primary-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 189 184 / var(--tw-bg-opacity));
+}
+.bg-primary-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-secondary-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 246 244 / var(--tw-bg-opacity));
+}
+.bg-secondary-150 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 238 / var(--tw-bg-opacity));
+}
+.bg-secondary-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 238 232 / var(--tw-bg-opacity));
+}
+.bg-secondary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 249 / var(--tw-bg-opacity));
+}
+.bg-secondary-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 161 147 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[url\(\'\/images\/contact\/Chatmobile\.png\'\)\] {
+  background-image: url('/images/contact/Chatmobile.png');
+}
+.bg-\[url\(\'\/images\/contact\/Message\.png\'\)\] {
+  background-image: url('/images/contact/Message.png');
+}
+.bg-\[url\(\'\/images\/contact\/phone\.png\'\)\] {
+  background-image: url('/images/contact/phone.png');
+}
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+.from-\[\#f6f8f8\] {
+  --tw-gradient-from: #f6f8f8 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(246 248 248 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-\[\#f9fafb\] {
+  --tw-gradient-from: #f9fafb var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(249 250 251 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-neutral-150 {
+  --tw-gradient-from: #f2f2f2 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(242 242 242 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-primary {
+  --tw-gradient-from: #07b6b0 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(7 182 176 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-primary-50 {
+  --tw-gradient-from: #effafa var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(239 250 250 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-secondary-550 {
+  --tw-gradient-from: #e1baac var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(225 186 172 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-\[\#05807C\] {
+  --tw-gradient-to: #05807C var(--tw-gradient-to-position);
+}
+.to-\[\#069d98\] {
+  --tw-gradient-to: #069d98 var(--tw-gradient-to-position);
+}
+.to-\[\#f7fbfc\] {
+  --tw-gradient-to: #f7fbfc var(--tw-gradient-to-position);
+}
+.to-neutral {
+  --tw-gradient-to: #ffffff var(--tw-gradient-to-position);
+}
+.to-secondary-1000 {
+  --tw-gradient-to: #c98269 var(--tw-gradient-to-position);
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-top {
+  background-position: top;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.p-\[1\.0625rem\] {
+  padding: 1.0625rem;
+}
+.p-\[14px\] {
+  padding: 14px;
+}
+.p-\[16px\] {
+  padding: 16px;
+}
+.p-\[26px\] {
+  padding: 26px;
+}
+.p-\[2rem\] {
+  padding: 2rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-\[158px\] {
+  padding-left: 158px;
+  padding-right: 158px;
+}
+.px-\[18px\] {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.px-\[32px\] {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.px-\[36px\] {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.px-\[74px\] {
+  padding-left: 74px;
+  padding-right: 74px;
+}
+.px-\[80px\] {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.py-\[2rem\] {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-\[44px\] {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.py-\[56px\] {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pb-\[100px\] {
+  padding-bottom: 100px;
+}
+.pb-\[124px\] {
+  padding-bottom: 124px;
+}
+.pb-\[13\.25rem\] {
+  padding-bottom: 13.25rem;
+}
+.pb-\[146px\] {
+  padding-bottom: 146px;
+}
+.pb-\[196px\] {
+  padding-bottom: 196px;
+}
+.pb-\[218px\] {
+  padding-bottom: 218px;
+}
+.pb-\[24\.25rem\] {
+  padding-bottom: 24.25rem;
+}
+.pb-\[358px\] {
+  padding-bottom: 358px;
+}
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+.pb-\[45px\] {
+  padding-bottom: 45px;
+}
+.pb-\[5\.25rem\] {
+  padding-bottom: 5.25rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pl-8 {
+  padding-left: 2rem;
+}
+.pl-\[20px\] {
+  padding-left: 20px;
+}
+.pr-\[72px\] {
+  padding-right: 72px;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+.pt-11 {
+  padding-top: 2.75rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+.pt-\[130px\] {
+  padding-top: 130px;
+}
+.pt-\[138px\] {
+  padding-top: 138px;
+}
+.pt-\[2\.375rem\] {
+  padding-top: 2.375rem;
+}
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+.pt-\[32px\] {
+  padding-top: 32px;
+}
+.pt-\[330px\] {
+  padding-top: 330px;
+}
+.pt-\[4\.875rem\] {
+  padding-top: 4.875rem;
+}
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+.pt-\[44px\] {
+  padding-top: 44px;
+}
+.pt-\[58px\] {
+  padding-top: 58px;
+}
+.pt-\[68px\] {
+  padding-top: 68px;
+}
+.pt-\[8\.25rem\] {
+  padding-top: 8.25rem;
+}
+.pt-\[9\.125rem\] {
+  padding-top: 9.125rem;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-5xl\/\[140\%\] {
+  font-size: 3rem;
+  line-height: 140%;
+}
+.text-\[0\.75rem\] {
+  font-size: 0.75rem;
+}
+.text-\[0\.875rem\] {
+  font-size: 0.875rem;
+}
+.text-\[0\.89rem\] {
+  font-size: 0.89rem;
+}
+.text-\[0\.95rem\] {
+  font-size: 0.95rem;
+}
+.text-\[1\.125rem\] {
+  font-size: 1.125rem;
+}
+.text-\[1\.125rem\]\/none {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+.text-\[1\.18rem\] {
+  font-size: 1.18rem;
+}
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+.text-\[1\.75rem\] {
+  font-size: 1.75rem;
+}
+.text-\[180px\] {
+  font-size: 180px;
+}
+.text-\[18px\] {
+  font-size: 18px;
+}
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+.text-\[2\.5rem\]\/\[140\%\] {
+  font-size: 2.5rem;
+  line-height: 140%;
+}
+.text-\[2\.5rem\]\/none {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+.text-\[2rem\]\/\[170\%\] {
+  font-size: 2rem;
+  line-height: 170%;
+}
+.text-base\/\[normal\] {
+  font-size: 1rem;
+  line-height: normal;
+}
+.text-base\/none {
+  font-size: 1rem;
+  line-height: 1;
+}
+.text-lg\/\[170\%\] {
+  font-size: 1.125rem;
+  line-height: 170%;
+}
+.text-sm\/\[140\%\] {
+  font-size: 0.875rem;
+  line-height: 140%;
+}
+.text-sm\/none {
+  font-size: 0.875rem;
+  line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.font-\[400\] {
+  font-weight: 400;
+}
+.font-\[500\] {
+  font-weight: 500;
+}
+.font-\[600\] {
+  font-weight: 600;
+}
+.font-\[700\] {
+  font-weight: 700;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.leading-\[200\%\] {
+  line-height: 200%;
+}
+.leading-\[21\.2px\] {
+  line-height: 21.2px;
+}
+.leading-\[26\.762px\] {
+  line-height: 26.762px;
+}
+.leading-\[28\.8px\] {
+  line-height: 28.8px;
+}
+.leading-\[28px\] {
+  line-height: 28px;
+}
+.leading-\[30\.6px\] {
+  line-height: 30.6px;
+}
+.leading-\[31\.5px\] {
+  line-height: 31.5px;
+}
+.leading-\[32\.9px\] {
+  line-height: 32.9px;
+}
+.leading-\[33\.6px\] {
+  line-height: 33.6px;
+}
+.leading-\[36px\] {
+  line-height: 36px;
+}
+.leading-\[39\.2px\] {
+  line-height: 39.2px;
+}
+.leading-\[44\.8px\] {
+  line-height: 44.8px;
+}
+.-tracking-\[-0\.18px\] {
+  letter-spacing: 0.18px;
+}
+.-tracking-\[-0\.43px\] {
+  letter-spacing: 0.43px;
+}
+.-tracking-\[0\.12px\] {
+  letter-spacing: -0.12px;
+}
+.-tracking-\[0\.14\] {
+  letter-spacing: -0.14;
+}
+.-tracking-\[0\.14px\] {
+  letter-spacing: -0.14px;
+}
+.-tracking-\[0\.16px\] {
+  letter-spacing: -0.16px;
+}
+.-tracking-\[0\.18px\] {
+  letter-spacing: -0.18px;
+}
+.-tracking-\[0\.42px\] {
+  letter-spacing: -0.42px;
+}
+.-tracking-\[0\.573px\] {
+  letter-spacing: -0.573px;
+}
+.-tracking-\[0\.9px\] {
+  letter-spacing: -0.9px;
+}
+.-tracking-\[1\.18px\] {
+  letter-spacing: -1.18px;
+}
+.-tracking-\[1\.28px\] {
+  letter-spacing: -1.28px;
+}
+.-tracking-\[1\.4px\] {
+  letter-spacing: -1.4px;
+}
+.-tracking-\[1\.6px\] {
+  letter-spacing: -1.6px;
+}
+.-tracking-\[1\.92px\] {
+  letter-spacing: -1.92px;
+}
+.tracking-1 {
+  letter-spacing: -0.14px;
+}
+.tracking-2 {
+  letter-spacing: -0.28px;
+}
+.tracking-3 {
+  letter-spacing: -0.32px;
+}
+.text-\[\#011f3d\] {
+  --tw-text-opacity: 1;
+  color: rgb(1 31 61 / var(--tw-text-opacity));
+}
+.text-neutral {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-neutral-200 {
+  --tw-text-opacity: 1;
+  color: rgb(230 230 230 / var(--tw-text-opacity));
+}
+.text-neutral-250 {
+  --tw-text-opacity: 1;
+  color: rgb(204 204 204 / var(--tw-text-opacity));
+}
+.text-neutral-350 {
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+.text-neutral-400 {
+  --tw-text-opacity: 1;
+  color: rgb(128 128 128 / var(--tw-text-opacity));
+}
+.text-neutral-450 {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
+}
+.text-neutral-700 {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.text-neutral-800 {
+  --tw-text-opacity: 1;
+  color: rgb(100 100 100 / var(--tw-text-opacity));
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(7 182 176 / var(--tw-text-opacity));
+}
+.text-primary-100 {
+  --tw-text-opacity: 1;
+  color: rgb(223 246 245 / var(--tw-text-opacity));
+}
+.text-primary-300 {
+  --tw-text-opacity: 1;
+  color: rgb(131 218 216 / var(--tw-text-opacity));
+}
+.text-primary-500 {
+  --tw-text-opacity: 1;
+  color: rgb(32 189 184 / var(--tw-text-opacity));
+}
+.text-primary-550 {
+  --tw-text-opacity: 1;
+  color: rgb(7 182 176 / var(--tw-text-opacity));
+}
+.text-secondary-600 {
+  --tw-text-opacity: 1;
+  color: rgb(200 161 147 / var(--tw-text-opacity));
+}
+.text-secondary-650 {
+  --tw-text-opacity: 1;
+  color: rgb(174 135 121 / var(--tw-text-opacity));
+}
+.text-secondary-750 {
+  --tw-text-opacity: 1;
+  color: rgb(123 84 70 / var(--tw-text-opacity));
+}
+.text-secondary-800 {
+  --tw-text-opacity: 1;
+  color: rgb(98 59 45 / var(--tw-text-opacity));
+}
+.text-secondary-950 {
+  --tw-text-opacity: 1;
+  color: rgb(21 0 0 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.opacity-20 {
+  opacity: 0.2;
+}
+.opacity-35 {
+  opacity: 0.35;
+}
+.opacity-75 {
+  opacity: 0.75;
+}
+.outline {
+  outline-style: solid;
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:focus-visible,
+input:focus-visible,
+button:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(128 128 128 / var(--tw-ring-opacity));
+  --tw-ring-offset-width: 2px;
+  --tw-ring-offset-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  a:focus-visible,
+input:focus-visible,
+button:focus-visible {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(26 26 26 / var(--tw-ring-opacity));
+    --tw-ring-offset-color: #171717;
+  }
+}
+
+.hover\:font-medium:hover {
+  font-weight: 500;
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(7 182 176 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:shadow-1:hover {
+  --tw-shadow: 0px 20px 80px 0px rgba(2, 103, 202, 0.15);
+  --tw-shadow-colored: 0px 20px 80px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-none:hover {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.disabled\:opacity-20:disabled {
+  opacity: 0.2;
+}
+
+@media (min-width: 768px) {
+
+  .md\:right-\[50px\] {
+    right: 50px;
+  }
+
+  .md\:top-\[121px\] {
+    top: 121px;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:-mt-\[210px\] {
+    margin-top: -210px;
+  }
+
+  .md\:-mt-\[28px\] {
+    margin-top: -28px;
+  }
+
+  .md\:mb-\[6\.625rem\] {
+    margin-bottom: 6.625rem;
+  }
+
+  .md\:mr-\[113px\] {
+    margin-right: 113px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .md\:mt-\[132px\] {
+    margin-top: 132px;
+  }
+
+  .md\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .md\:h-\[450px\] {
+    height: 450px;
+  }
+
+  .md\:h-\[560px\] {
+    height: 560px;
+  }
+
+  .md\:h-\[683px\] {
+    height: 683px;
+  }
+
+  .md\:h-\[956px\] {
+    height: 956px;
+  }
+
+  .md\:max-h-\[358px\] {
+    max-height: 358px;
+  }
+
+  .md\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .md\:w-\[154px\] {
+    width: 154px;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .md\:w-\[205px\] {
+    width: 205px;
+  }
+
+  .md\:w-\[230px\] {
+    width: 230px;
+  }
+
+  .md\:w-\[262px\] {
+    width: 262px;
+  }
+
+  .md\:w-\[268px\] {
+    width: 268px;
+  }
+
+  .md\:w-\[32px\] {
+    width: 32px;
+  }
+
+  .md\:w-\[434px\] {
+    width: 434px;
+  }
+
+  .md\:w-\[467px\] {
+    width: 467px;
+  }
+
+  .md\:w-\[calc\(100vw-17px\)\] {
+    width: calc(100vw - 17px);
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:max-w-\[351px\] {
+    max-width: 351px;
+  }
+
+  .md\:max-w-\[666px\] {
+    max-width: 666px;
+  }
+
+  .md\:max-w-\[826px\] {
+    max-width: 826px;
+  }
+
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .md\:gap-\[20px\] {
+    gap: 20px;
+  }
+
+  .md\:gap-\[25px\] {
+    gap: 25px;
+  }
+
+  .md\:gap-\[26px\] {
+    gap: 26px;
+  }
+
+  .md\:border-2 {
+    border-width: 2px;
+  }
+
+  .md\:border-x-2 {
+    border-left-width: 2px;
+    border-right-width: 2px;
+  }
+
+  .md\:border-solid {
+    border-style: solid;
+  }
+
+  .md\:border-primary-250 {
+    --tw-border-opacity: 1;
+    border-color: rgb(156 226 223 / var(--tw-border-opacity));
+  }
+
+  .md\:bg-\[url\(\'\/images\/contact\/Chat\.png\'\)\] {
+    background-image: url('/images/contact/Chat.png');
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .md\:px-\[156px\] {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+
+  .md\:px-\[226px\] {
+    padding-left: 226px;
+    padding-right: 226px;
+  }
+
+  .md\:pb-\[169px\] {
+    padding-bottom: 169px;
+  }
+
+  .md\:pb-\[218px\] {
+    padding-bottom: 218px;
+  }
+
+  .md\:pb-\[50px\] {
+    padding-bottom: 50px;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .md\:pl-\[24px\] {
+    padding-left: 24px;
+  }
+
+  .md\:pl-\[5rem\] {
+    padding-left: 5rem;
+  }
+
+  .md\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .md\:pr-\[103\.82px\] {
+    padding-right: 103.82px;
+  }
+
+  .md\:pr-\[57px\] {
+    padding-right: 57px;
+  }
+
+  .md\:pt-\[100px\] {
+    padding-top: 100px;
+  }
+
+  .md\:pt-\[130px\] {
+    padding-top: 130px;
+  }
+
+  .md\:pt-\[35px\] {
+    padding-top: 35px;
+  }
+
+  .md\:pt-\[69px\] {
+    padding-top: 69px;
+  }
+
+  .md\:text-7xl\/\[125\%\] {
+    font-size: 4.5rem;
+    line-height: 125%;
+  }
+
+  .md\:text-\[0\.875rem\] {
+    font-size: 0.875rem;
+  }
+
+  .md\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
+  .md\:text-\[2\.5rem\]\/\[170\%\] {
+    font-size: 2.5rem;
+    line-height: 170%;
+  }
+
+  .md\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .md\:text-\[2rem\]\/\[170\%\] {
+    font-size: 2rem;
+    line-height: 170%;
+  }
+
+  .md\:text-\[32px\]\/\[140\%\] {
+    font-size: 32px;
+    line-height: 140%;
+  }
+
+  .md\:text-\[48px\]\/none {
+    font-size: 48px;
+    line-height: 1;
+  }
+
+  .md\:text-\[4rem\]\/none {
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  .md\:leading-\[22\.4px\] {
+    line-height: 22.4px;
+  }
+
+  .md\:leading-\[25\.2px\] {
+    line-height: 25.2px;
+  }
+
+  .md\:leading-\[36px\] {
+    line-height: 36px;
+  }
+
+  .md\:leading-\[44\.8px\] {
+    line-height: 44.8px;
+  }
+
+  .md\:leading-\[54\.4px\] {
+    line-height: 54.4px;
+  }
+
+  .md\:leading-\[67\.5px\] {
+    line-height: 67.5px;
+  }
+
+  .md\:-tracking-\[0\.14px\] {
+    letter-spacing: -0.14px;
+  }
+
+  .md\:-tracking-\[0\.16px\] {
+    letter-spacing: -0.16px;
+  }
+
+  .md\:-tracking-\[0\.18px\] {
+    letter-spacing: -0.18px;
+  }
+
+  .md\:-tracking-\[0\.96px\] {
+    letter-spacing: -0.96px;
+  }
+
+  .md\:-tracking-\[1\.6px\] {
+    letter-spacing: -1.6px;
+  }
+
+  .md\:-tracking-\[1\.9px\] {
+    letter-spacing: -1.9px;
+  }
+
+  .md\:-tracking-\[2px\] {
+    letter-spacing: -2px;
+  }
+
+  .md\:-tracking-\[3\.2px\] {
+    letter-spacing: -3.2px;
+  }
+
+  .md\:-tracking-\[4\.32px\] {
+    letter-spacing: -4.32px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:-top-\[1\.5625rem\] {
+    top: -1.5625rem;
+  }
+
+  .lg\:right-\[17\.5rem\] {
+    right: 17.5rem;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:-mt-\[200px\] {
+    margin-top: -200px;
+  }
+
+  .lg\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .lg\:ml-\[3\.75rem\] {
+    margin-left: 3.75rem;
+  }
+
+  .lg\:mr-\[31\.9375rem\] {
+    margin-right: 31.9375rem;
+  }
+
+  .lg\:mt-60 {
+    margin-top: 15rem;
+  }
+
+  .lg\:mt-\[4\.0625rem\] {
+    margin-top: 4.0625rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:max-w-\[34\.0625rem\] {
+    max-width: 34.0625rem;
+  }
+
+  .lg\:max-w-\[70rem\] {
+    max-width: 70rem;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:py-\[2\.3125rem\] {
+    padding-top: 2.3125rem;
+    padding-bottom: 2.3125rem;
+  }
+
+  .lg\:pb-\[6\.5rem\] {
+    padding-bottom: 6.5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-7xl\/\[125\%\] {
+    font-size: 4.5rem;
+    line-height: 125%;
+  }
+
+  .lg\:text-\[3\.5rem\]\/\[135\%\] {
+    font-size: 3.5rem;
+    line-height: 135%;
+  }
+
+  .lg\:-tracking-\[2\.8px\] {
+    letter-spacing: -2.8px;
+  }
+
+  .lg\:-tracking-\[4\.32px\] {
+    letter-spacing: -4.32px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"fonts\\matter.ts","import":"","arguments":[{"src":[{"path":"./Matter-Light.otf","weight":"100","style":"normal"},{"path":"./Matter-LightItalic.otf","weight":"100","style":"italic"},{"path":"./Matter-Regular.otf","weight":"400","style":"normal"},{"path":"./Matter-RegularItalic.otf","weight":"400","style":"italic"},{"path":"./Matter-Medium.otf","weight":"500","style":"normal"},{"path":"./Matter-MediumItalic.otf","weight":"500","style":"italic"},{"path":"./Matter-SemiBold.otf","weight":"600","style":"normal"},{"path":"./Matter-SemiBoldItalic.otf","weight":"600","style":"italic"},{"path":"./Matter-Bold.otf","weight":"700","style":"normal"},{"path":"./Matter-BoldItalic.otf","weight":"700","style":"italic"},{"path":"./Matter-Heavy.otf","weight":"900","style":"normal"},{"path":"./Matter-HeavyItalic.otf","weight":"900","style":"italic"}]}],"variableName":"matter"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/01a59a562d286a0a-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 100;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/b8260daa766c192a-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 100;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/090f5f92a7a4c404-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/677d9f89a167f944-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/4e6a5aac02462a2c-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/0bf0cf8844ec4f8d-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 500;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/403e674152821d31-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/10854a5aa8f9f903-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 600;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/7e8a0a54558ce267-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/17fe080204dd6727-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 700;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/f5324da4deca4f4d-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__matter_a4b27c';
+src: url(/_next/static/media/555b93e257091c89-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 900;
+font-style: italic;
+}@font-face {font-family: '__matter_Fallback_a4b27c';src: local("Arial");ascent-override: 78.82%;descent-override: 18.49%;line-gap-override: 19.46%;size-adjust: 102.76%
+}.__className_a4b27c {font-family: '__matter_a4b27c', '__matter_Fallback_a4b27c'
+}
+

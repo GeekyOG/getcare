@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-Light.otf') format('opentype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-LightItalic.otf') format('opentype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./Matter-HeavyItalic.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
