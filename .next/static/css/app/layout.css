@@ -636,6 +636,9 @@ video {
 .right-\[10px\] {
   right: 10px;
 }
+.right-\[0px\] {
+  right: 0px;
+}
 .z-10 {
   z-index: 10;
 }

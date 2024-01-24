@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const getCurrentHeadingClassName = () => {
     if (pathname === '/creatives') {
-      return 'bg-primary-50 lg:border-none';
+      return 'bg-white lg:border-none';
     } else if (pathname === '/contact-us') {
       return 'bg-[#fffbf9] lg:border-none';
     } else {

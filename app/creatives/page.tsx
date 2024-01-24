@@ -9,7 +9,7 @@ import Image from 'next/image';
 function Creatives() {
   return (
     <main className="-mt-10 flex min-h-screen flex-col items-center justify-between">
-      <section className="w-full  bg-gradient-to-b  from-primary-50 to-neutral pt-20">
+      <section className="w-full pt-20">
         <div className="mb-[127px] w-full">
           <Heading className="mx-auto text-center">
             Encourage Hope
@@ -86,7 +86,7 @@ function Creatives() {
               height={200}
               width={200}
               quality={100}
-              className="absolute -top-[150px] right-[10px] z-10"
+              className="absolute -top-[150px] right-[0px] z-10"
             />
           </div>
 

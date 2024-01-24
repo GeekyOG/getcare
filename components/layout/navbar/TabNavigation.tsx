@@ -31,7 +31,7 @@ export default function TabNavigation() {
 
   const getActiveTabClassName = () => {
     if (pathname === '/creatives') {
-      return 'bg-primary-100';
+      return 'bg-secondary-100';
     } else if (pathname === '/contact-us') {
       return 'bg-secondary-100';
     }

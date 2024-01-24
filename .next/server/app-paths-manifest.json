@@ -2,8 +2,8 @@
   "/creatives/page": "app/creatives/page.js",
   "/therapist/page": "app/therapist/page.js",
   "/page": "app/page.js",
-  "/not-found": "app/not-found.js",
   "/about-us/page": "app/about-us/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/contact-us/page": "app/contact-us/page.js"
+  "/contact-us/page": "app/contact-us/page.js",
+  "/not-found": "app/not-found.js",
+  "/faqs/page": "app/faqs/page.js"
 }
