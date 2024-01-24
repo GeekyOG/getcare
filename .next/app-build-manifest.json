@@ -1,11 +1,5 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -22,30 +16,31 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/creatives/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/creatives/page.js"
+    ],
     "/therapist/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/therapist/page.js"
     ],
-    "/contact-us/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact-us/page.js"
-    ],
-    "/creatives/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/creatives/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/about-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about-us/page.js"
     ],
-    "/faqs/page": [
+    "/contact-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/faqs/page.js"
+      "static/chunks/app/contact-us/page.js"
     ]
   }
 }

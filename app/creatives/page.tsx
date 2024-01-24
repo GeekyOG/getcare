@@ -33,7 +33,7 @@ function Creatives() {
           </div>
         </div>
       </section>
-      <section className="overflow-y-visible overflow-x-scroll lg:overflow-visible">
+      <section className="overflow-y-visible overflow-x-scroll xl:overflow-visible">
         <div className="flex w-[100vw] justify-between gap-[25px]">
           <div className="flex-none">
             <Image
