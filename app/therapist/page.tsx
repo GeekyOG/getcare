@@ -28,8 +28,9 @@ export default function Therapist() {
             alt=""
             width="261"
             height="420"
-            src="/images/therapy/lady-wave.svg"
+            src="/images/therapy/lady-wave.png"
             className="hidden  lg:block"
+            quality={100}
           />
           <Image
             alt=""
@@ -37,14 +38,16 @@ export default function Therapist() {
             height="420"
             src="/images/therapy/mobile.png"
             className="block w-[100%] lg:hidden"
+            quality={100}
           />
 
           <Image
             alt=""
             width="548"
             height="502"
-            src="/images/therapy/doctor-laptop.svg"
+            src="/images/therapy/doc-laptop.png"
             className="hidden lg:block"
+            quality={100}
           />
           <div className="flex gap-[20px]  lg:flex-col lg:gap-[25px]">
             <div className="overflow-hidden lg:w-[205px]">
@@ -52,7 +55,8 @@ export default function Therapist() {
                 alt=""
                 width="461"
                 height="205"
-                src="/images/therapy/lady-laptop.svg"
+                src="/images/therapy/woman-laptop.png"
+                quality={100}
               />
             </div>
 
@@ -61,7 +65,8 @@ export default function Therapist() {
                 alt=""
                 width="461"
                 height="205"
-                src="/images/therapy/lady-pen.svg"
+                src="/images/therapy/lady-laptop.png"
+                quality={100}
               />
             </div>
           </div>

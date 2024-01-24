@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button';
 import Heading from '@/components/ui/Heading';
 import Sub from '@/components/ui/Sub';
 import SubHeading from '@/components/ui/SubHeading';
+import Image from 'next/image';
 
 function Creatives() {
   return (
@@ -11,51 +12,135 @@ function Creatives() {
       <section className="w-full  bg-gradient-to-b  from-primary-50 to-neutral pt-20">
         <div className="mb-[127px] w-full">
           <Heading className="mx-auto text-center">
-            Encourage Hope through Work of Art
+            Encourage Hope
+            <br /> through
+            <span
+              className="ml-2"
+              style={{
+                backgroundImage:
+                  'linear-gradient(90deg, #07B6B0 53.21%, #81C5BB 67.11%, #C8CDC1 73.68%, #FBD4C6 82.61%, #D5AEA0 91.5%, #AE8779 107.21%)',
+                backgroundClip: 'text',
+                color: 'transparent',
+              }}
+            >
+              Work of Art
+            </span>
           </Heading>
           <div className="mt-10 flex justify-center">
-            <Button className="bg-primary">Become a Creative</Button>
+            <Button className="bg-primary-950 text-neutral">
+              Become a Creative
+            </Button>
           </div>
         </div>
       </section>
-      <section className="md:mt-[132px]">
+      <section className="overflow-y-visible overflow-x-scroll lg:overflow-visible">
+        <div className="flex w-[100vw] justify-between gap-[25px]">
+          <div className="flex-none">
+            <Image
+              src="/images/creatives/green.png"
+              alt=""
+              height={363}
+              width={130}
+              quality={100}
+            />
+          </div>
+
+          <div className="flex-none">
+            <Image
+              src="/images/creatives/img1.png"
+              alt=""
+              height={363}
+              width={261}
+              quality={100}
+            />
+          </div>
+          <div className="flex-none">
+            <Image
+              src="/images/creatives/img2.png"
+              alt=""
+              height={363}
+              width={261}
+              quality={100}
+            />
+          </div>
+          <div className="flex-none">
+            <Image
+              src="/images/creatives/img3.png"
+              alt=""
+              height={363}
+              width={261}
+              quality={100}
+            />
+          </div>
+          <div className="relative flex-none">
+            <Image
+              src="/images/creatives/img4.png"
+              alt=""
+              height={363}
+              width={261}
+              quality={100}
+            />
+            <Image
+              src="/images/creatives/ellipse.png"
+              alt=""
+              height={200}
+              width={200}
+              quality={100}
+              className="absolute -top-[150px] right-[10px] z-10"
+            />
+          </div>
+
+          <div className="flex-none">
+            <Image
+              src="/images/creatives/pink.png"
+              alt=""
+              height={363}
+              width={130}
+              quality={100}
+            />
+          </div>
+        </div>
+      </section>
+      <section className="mt-[100px]  px-[24px]">
         <div>
           <SubHeading>
-            Discover Hope, Find Recovery, Reclaim Your Life with Us.
+            Feeling inspired? Create something positive for people to focus
+            their mind on.
           </SubHeading>
-          <div className="mt-20 border-x-2 border-neutral-200 px-[80px] pb-[218px]">
-            <div className="flex flex-wrap md:gap-[26px]">
-              <div className="bg-neutral-750 h-[560px] max-w-[467px] rounded-[18px] px-[32px] pr-[72px] pt-[44px]">
+          <div className="mt-20 border-neutral-200 lg:border-x-2 lg:px-[80px]">
+            <div className="flex flex-wrap gap-[26px] lg:flex-nowrap">
+              <div
+                className="h-[560px] w-[100%] rounded-[18px] px-[32px] pt-[44px] lg:max-w-[467px]"
+                style={{
+                  backgroundImage:
+                    ' linear-gradient(180deg, #F9FAFB 0%, #F7FBFC 100%)',
+                }}
+              >
                 <Sub className="font-medium">
-                  Be a Part of the journey to wellness of people
+                  Explore the boundaries of your creativity. Create content and
+                  share experiences.
                 </Sub>
               </div>
-              <div className="bg-neutral-750 h-[560px] max-w-[467px] rounded-[18px] px-[32px] pr-[72px] pt-[44px]">
+              <div className=" h-[560px] w-[100%] rounded-[18px] bg-primary-50 px-[32px] pt-[44px] lg:max-w-[467px] lg:pr-[120px]">
                 <Sub className="font-medium">
-                  Schedule Session and Monitor Patients Addiction recovery
-                  Journey
+                  Its a digital community. <br />A world built with art and love
                 </Sub>
               </div>
             </div>
-            <div className="mt-[28px] max-w-[100%] rounded-[18px] bg-secondary-100 px-[158px] pb-[196px] pr-[72px] pt-[68px]">
+            <div className="mt-[28px] max-w-[100%] rounded-[18px] bg-secondary-100 px-[32px] pb-[196px] pt-[44px] pt-[68px] lg:px-[158px] lg:pr-[72px]">
               <Sub className="max-w-[664px] text-center">
-                We are a platform dedicated to helping
-                <br /> people get rid of dist and wellbeing through therapy
-                sessions,
+                Sip up the creative juice and inspire an ever-growing audience
+                with art that comes from the heart.
               </Sub>
             </div>
           </div>
-          <div className="-mt-10 flex max-w-[100%] flex-col items-center justify-center gap-[44px] rounded-[18px] bg-primary-950 px-[158px] py-[100px] pr-[72px] pt-[68px]">
-            <SubHeading className="max-w-[664px]  text-neutral">
-              Be a Part of the Heroes bringing hope and joy to People!
+          <div className="mt-[100px] flex max-w-[100%] flex-col items-center justify-center gap-[44px] rounded-[18px] bg-primary-950 px-[30px] py-[100px] pt-[68px] lg:px-[158px]">
+            <SubHeading className="text-neutral  lg:max-w-[664px]">
+              Together we can create a balanced world
             </SubHeading>
-            <p className="max-w-[412px] text-center text-neutral">
-              We are a platform dedicated to helping people get rid of dist and
-              wellbeing through
-            </p>
 
             <Button className="w-[160px] bg-neutral text-neutral-700 md:w-[230px]">
-              Become a Professional
+              Become a Creator
             </Button>
           </div>
         </div>

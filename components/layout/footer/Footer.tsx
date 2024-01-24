@@ -5,6 +5,7 @@ import Container from '@/components/ui/Container';
 import Heading from '@/components/ui/footer/Heading';
 import Text from '@/components/ui/footer/Text';
 import LogoBox from '@/components/ui/LogoBox';
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -23,32 +24,55 @@ function Footer() {
               <div className="flex w-[50%] flex-col gap-[32px] md:w-[154px]">
                 <Heading>PRODUCTS</Heading>
                 <div className="flex flex-col gap-[16px]">
-                  <Text>For Therapists</Text>
-                  <Text>For Creatives</Text>
-                  <Text>For You!</Text>
+                  <Link href="/therapist">
+                    <Text>For Therapists</Text>
+                  </Link>
+                  <Link href="/creatives">
+                    <Text>For Creatives</Text>
+                  </Link>
+
+                  <Link href="">
+                    <Text>For You!</Text>
+                  </Link>
                 </div>
               </div>
               <div className="flex w-[50%] flex-col gap-[32px] md:w-[154px]">
                 <Heading>COMPANY</Heading>
                 <div className="flex flex-col gap-[16px]">
-                  <Text>About Us</Text>
-                  <Text>Explore Minerals</Text>
-                  <Text>Investment</Text>
+                  <Link href="/about-us">
+                    <Text>About Us</Text>
+                  </Link>
+                  <Link href="">
+                    <Text>Explore Minerals</Text>
+                  </Link>
+                  <Link href="">
+                    <Text>Investment</Text>
+                  </Link>
                 </div>
               </div>
               <div className="mt-[48px] flex w-[50%] flex-col gap-[32px] md:mt-0 md:w-[154px]">
                 <Heading>SOCIAL MEDIA</Heading>
                 <div className="flex flex-col gap-[16px]">
-                  <Text>Facebook</Text>
-                  <Text>Instagram</Text>
-                  <Text>Linkedin</Text>
+                  <Link href="">
+                    <Text>Facebook</Text>
+                  </Link>
+                  <Link href="">
+                    <Text>Instagram</Text>
+                  </Link>
+                  <Link href="">
+                    <Text>Linkedin</Text>
+                  </Link>
                 </div>
               </div>
               <div className="mt-[48px] flex w-[50%] flex-col gap-[32px] md:mt-0 md:w-[154px]">
                 <Heading>SUPPORT</Heading>
                 <div className="flex flex-col gap-[16px]">
-                  <Text>Contact Us</Text>
-                  <Text>Faqs</Text>
+                  <Link href="/contact-us">
+                    <Text>Contact Us</Text>
+                  </Link>
+                  <Link href="/faqs">
+                    <Text>Faqs</Text>
+                  </Link>
                 </div>
               </div>
             </div>

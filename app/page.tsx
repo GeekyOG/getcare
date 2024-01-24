@@ -130,7 +130,7 @@ export default function Home() {
         </div>
       </section>
 
-      <CallToAction className="-top-[308px] lg:mt-[80px]" />
+      <CallToAction className="-top-[308px] lg:mt-[150px]" />
     </div>
   );
 }

@@ -17,7 +17,7 @@ const TeamCard: FunctionComponent<TeamCardProps> = ({
 }) => (
   <div
     className={clsx(
-      ' justidy-center flex w-[365px] flex-col items-center gap-[64.24px] rounded-[16px] bg-neutral-100 p-[2rem]',
+      'justidy-center flex w-[365px] flex-none flex-col items-center gap-[64.24px] rounded-[16px] bg-neutral-100 p-[2rem] md:w-[calc(45%)] lg:w-[365px]',
       className,
     )}
   >

@@ -7,13 +7,13 @@ interface SubProps {
 }
 
 const Sub: FunctionComponent<SubProps> = ({ children, className }) => (
-  <p
+  <h3
     className={clsx(
-      'text-[1.75rem] font-[500] leading-[32.9px] -tracking-[1.4px] md:text-[2rem] md:leading-[44.8px] md:-tracking-[1.6px]',
+      'max-w-[331px] text-[1.75rem] font-medium -tracking-[1.6px] md:text-[32px]/[140%]',
       className,
     )}
   >
     {children}
-  </p>
+  </h3>
 );
 export default Sub;
