@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,17 +27,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/creatives/page.js"
     ],
-    "/therapist/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/therapist/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
     "/about-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -42,10 +37,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/contact-us/page.js"
     ],
-    "/faqs/page": [
+    "/therapist/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/faqs/page.js"
+      "static/chunks/app/therapist/page.js"
     ]
   }
 }

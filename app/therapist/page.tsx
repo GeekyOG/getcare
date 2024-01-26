@@ -143,10 +143,10 @@ export default function Therapist() {
               </div>
             </Box>
             <div className="mx-auto mt-[28px] hidden max-w-[960px] rounded-[18px] bg-secondary-100 px-[30px] pb-[358px]  pt-[40px] md:block md:px-[156px] md:pb-[169px] md:pt-[69px]">
-              <Sub className=" text-center leading-[39.2px]  md:leading-[54.4px]">
+              <h4 className="text-center text-[1.75rem] font-medium leading-[39.2px] -tracking-[1.6px] md:text-[32px]/[140%]  md:leading-[54.4px]">
                 We are a platform dedicated to helping people get rid of dist
                 and wellbeing through therapy sessions,
-              </Sub>
+              </h4>
             </div>
           </div>
         </Container>

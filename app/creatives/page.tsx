@@ -8,9 +8,9 @@ import Image from 'next/image';
 
 function Creatives() {
   return (
-    <main className="-mt-10 flex min-h-screen flex-col items-center justify-between">
+    <main className=" flex min-h-screen flex-col items-center justify-between">
       <section className="w-full pt-20">
-        <div className="mb-[127px] w-full">
+        <div className="mb-[px] w-full">
           <Heading className="mx-auto text-center">
             Encourage Hope
             <br /> through
@@ -27,13 +27,13 @@ function Creatives() {
             </span>
           </Heading>
           <div className="mt-10 flex justify-center">
-            <Button className="bg-primary-950 text-neutral">
+            <Button className="z-10 bg-primary-950 text-neutral">
               Become a Creative
             </Button>
           </div>
         </div>
       </section>
-      <section className="overflow-y-visible overflow-x-scroll xl:overflow-visible">
+      <section className="-mt-[75px] overflow-x-scroll overflow-y-scroll pt-[150px] xl:overflow-visible">
         <div className="flex w-[100vw] justify-between gap-[25px]">
           <div className="flex-none">
             <Image
@@ -86,7 +86,7 @@ function Creatives() {
               height={200}
               width={200}
               quality={100}
-              className="absolute -top-[150px] right-[0px] z-10"
+              className="z-5 absolute -top-[150px] right-[0px]"
             />
           </div>
 
@@ -110,17 +110,30 @@ function Creatives() {
           <div className="mt-20 border-neutral-200 lg:border-x-2 lg:px-[80px]">
             <div className="flex flex-wrap gap-[26px] lg:flex-nowrap">
               <div
-                className="h-[560px] w-[100%] rounded-[18px] px-[32px] pt-[44px] lg:max-w-[467px]"
                 style={{
-                  backgroundImage:
+                  background:
                     ' linear-gradient(180deg, #F9FAFB 0%, #F7FBFC 100%)',
                 }}
+                className="w-[100%]"
               >
-                <Sub className="font-medium">
-                  Explore the boundaries of your creativity. Create content and
-                  share experiences.
-                </Sub>
+                <div
+                  className="h-[560px]  rounded-[18px] px-[32px] pt-[44px] lg:max-w-[467px]"
+                  style={{
+                    backgroundImage:
+                      "url('/images/creatives/ellipse.svg'), url('/images/creatives/doc.svg'), url('/images/creatives/doc.svg'), url('/images/creatives/doc.svg'), url('/images/creatives/doc.svg",
+
+                    backgroundPosition:
+                      'left bottom, left 0px bottom 260px, left 100px bottom 250px, left 200px bottom 200px, left 260px bottom 100px',
+                    backgroundRepeat: 'no-repeat',
+                  }}
+                >
+                  <Sub className="font-medium">
+                    Explore the boundaries of your creativity. Create content
+                    and share experiences.
+                  </Sub>
+                </div>
               </div>
+
               <div className=" h-[560px] w-[100%] rounded-[18px] bg-primary-50 px-[32px] pt-[44px] lg:max-w-[467px] lg:pr-[120px]">
                 <Sub className="font-medium">
                   Its a digital community. <br />A world built with art and love
@@ -128,7 +141,7 @@ function Creatives() {
               </div>
             </div>
             <div className="mt-[28px] max-w-[100%] rounded-[18px] bg-secondary-100 px-[32px] pb-[196px] pt-[44px] pt-[68px] lg:px-[158px] lg:pr-[72px]">
-              <Sub className="max-w-[664px] text-center">
+              <Sub className=" text-center lg:max-w-[664px]">
                 Sip up the creative juice and inspire an ever-growing audience
                 with art that comes from the heart.
               </Sub>
