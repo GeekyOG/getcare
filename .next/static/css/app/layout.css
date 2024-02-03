@@ -669,6 +669,9 @@ video {
 .-mt-\[180px\] {
   margin-top: -180px;
 }
+.-mt-\[75px\] {
+  margin-top: -75px;
+}
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -692,6 +695,9 @@ video {
 }
 .mb-\[4\.5rem\] {
   margin-bottom: 4.5rem;
+}
+.mb-\[px\] {
+  margin-bottom: px;
 }
 .ml-2 {
   margin-left: 0.5rem;
@@ -746,24 +752,6 @@ video {
 }
 .mt-\[67px\] {
   margin-top: 67px;
-}
-.mb-\[px\] {
-  margin-bottom: px;
-}
-.-mt-\[100px\] {
-  margin-top: -100px;
-}
-.-mt-\[80px\] {
-  margin-top: -80px;
-}
-.-mt-\[70px\] {
-  margin-top: -70px;
-}
-.-mt-\[50px\] {
-  margin-top: -50px;
-}
-.-mt-\[75px\] {
-  margin-top: -75px;
 }
 .block {
   display: block;
@@ -1051,9 +1039,6 @@ video {
 .overflow-scroll {
   overflow: scroll;
 }
-.overflow-y-visible {
-  overflow-y: visible;
-}
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -1167,10 +1152,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-red {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 13 57 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/images\/contact\/Chatmobile\.png\'\)\] {
   background-image: url('/images/contact/Chatmobile.png');
@@ -1384,6 +1365,9 @@ video {
 .pt-\[138px\] {
   padding-top: 138px;
 }
+.pt-\[150px\] {
+  padding-top: 150px;
+}
 .pt-\[2\.375rem\] {
   padding-top: 2.375rem;
 }
@@ -1419,12 +1403,6 @@ video {
 }
 .pt-\[9\.125rem\] {
   padding-top: 9.125rem;
-}
-.pt-\[560px\] {
-  padding-top: 560px;
-}
-.pt-\[150px\] {
-  padding-top: 150px;
 }
 .text-left {
   text-align: left;
