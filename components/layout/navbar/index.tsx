@@ -10,13 +10,14 @@ import Container from '@/components/ui/Container';
 import LogoBox from '@/components/ui/LogoBox';
 
 import TabNavigation from './TabNavigation';
-import Image from 'next/image';
 
 export default function Navbar() {
   const pathname = usePathname();
 
   const getCurrentHeadingClassName = () => {
-    if (pathname === '/creatives') {
+    if (pathname === '/') {
+      return 'bg-white lg:border-none';
+    } else if (pathname === '/creatives') {
       return 'bg-white lg:border-none';
     } else if (pathname === '/contact-us') {
       return 'bg-[#fffbf9] lg:border-none';
@@ -25,39 +26,37 @@ export default function Navbar() {
     }
   };
 
-  const getCurrentHeadingIconClassName = () => {
-    if (pathname === '/creatives') {
-      return 'bg-primary-200';
-    } else if (pathname === '/contact-us') {
-      return 'bg-secondary-200';
-    } else {
-      return 'bg-primary-100';
-    }
-  };
+  // const getCurrentHeadingIconClassName = () => {
+  //   if (pathname === '/creatives') {
+  //     return 'bg-primary-200';
+  //   } else if (pathname === '/contact-us') {
+  //     return 'bg-secondary-200';
+  //   } else {
+  //     return 'bg-primary-100';
+  //   }
+  // };
 
-  const getCurrentIconClassName = () => {
-    if (pathname === '/contact-us') {
-      return '/images/home/contactmenu-icon.svg';
-    } else {
-      return '/images/home/menu.svg';
-    }
-  };
+  // const getCurrentIconClassName = () => {
+  //   if (pathname === '/contact-us') {
+  //     return '/images/home/contact-menu-icon.svg';
+  //   } else {
+  //     return '/images/home/menu.svg';
+  //   }
+  // };
 
-  const getCurrentIconWrapperClassName = () => {
-    if (pathname === '/creatives') {
-      return 'bg-primary-50';
-    } else if (pathname === '/contact-us') {
-      return 'bg-secondary-100';
-    } else {
-      return 'bg-primary-50';
-    }
-  };
+  // const getCurrentIconWrapperClassName = () => {
+  //   if (pathname === '/contact-us') {
+  //     return 'bg-secondary-100';
+  //   } else {
+  //     return 'bg-primary-50';
+  //   }
+  // };
 
   return (
     <ElevationScroll>
       <nav
         className={clsx(
-          'fixed z-50 w-full border-[1px] border-neutral-150 lg:py-[2.3125rem] lg:py-[2rem]',
+          'fixed z-50 w-full border-[1px] border-neutral-150 py-[2rem] lg:py-[2.3125rem]',
           getCurrentHeadingClassName(),
         )}
       >
@@ -75,8 +74,8 @@ export default function Navbar() {
               Get Started
             </Button>
 
-            <div
-              className={`px-[1.75rem]  pb-[24px] pt-[2rem] lg:hidden ${getCurrentIconWrapperClassName()}`}
+            {/* <div
+              className={`px-[1.75rem] pb-[24px] pt-[2rem] lg:hidden ${getCurrentIconWrapperClassName()}`}
             >
               <div
                 className={`rounded-[8px]  p-[1rem] ${getCurrentHeadingIconClassName()}`}
@@ -85,7 +84,7 @@ export default function Navbar() {
                   <Image src={`${getCurrentIconClassName()}`} fill alt="" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
       </nav>

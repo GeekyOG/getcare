@@ -1,14 +1,14 @@
+import Image from 'next/image';
 import React from 'react';
 
 import { Button } from '@/components/ui/Button';
 import Heading from '@/components/ui/Heading';
 import Sub from '@/components/ui/Sub';
 import SubHeading from '@/components/ui/SubHeading';
-import Image from 'next/image';
 
 function Creatives() {
   return (
-    <main className=" flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between">
       <section className="w-full pt-20">
         <div className="mb-[px] w-full">
           <Heading className="mx-auto text-center">
@@ -141,7 +141,7 @@ function Creatives() {
               </div>
             </div>
             <div className="mt-[28px] max-w-[100%] rounded-[18px] bg-secondary-100 px-[32px] pb-[196px] pt-[44px] pt-[68px] lg:px-[158px] lg:pr-[72px]">
-              <Sub className=" text-center lg:max-w-[664px]">
+              <Sub className="text-center lg:max-w-[664px]">
                 Sip up the creative juice and inspire an ever-growing audience
                 with art that comes from the heart.
               </Sub>

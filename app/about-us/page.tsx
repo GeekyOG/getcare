@@ -5,10 +5,9 @@ import BigText from '@/components/ui/about/BigText';
 import TeamCard from '@/components/ui/about/TeamCard';
 import Text from '@/components/ui/about/Text';
 import TextContainer from '@/components/ui/about/TextContainer';
-import { Button } from '@/components/ui/Button';
+import CallToAction from '@/components/ui/CallToAction';
 import Container from '@/components/ui/Container';
 import Heading from '@/components/ui/Heading';
-import CallToAction from '@/components/ui/CallToAction';
 
 function About() {
   return (
@@ -48,7 +47,7 @@ function About() {
               <div className="mt-[40px] flex max-w-[765px] flex-col gap-[40px] ">
                 <Text className=" text-neutral-450">
                   We are a platform dedicated to helping people get rid of dist
-                  and wellbeing through therapy sessions, journaling,
+                  and wellbeing through professionals sessions, journaling,
                   relaxation, and community support.
                 </Text>
                 <Text className="text-neutral-350">

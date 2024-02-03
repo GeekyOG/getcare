@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 
 export default function TabNavigation() {
   const routes = [
-    { path: '/therapist', title: 'For Therapist' },
+    { path: '/professionals', title: 'For Professionals' },
     { path: '/creatives', title: 'For Creatives' },
     { path: '/about-us', title: 'About Us' },
     { path: '/contact-us', title: 'Contact Us' },
@@ -18,11 +18,11 @@ export default function TabNavigation() {
   const getActiveLinkClassName = (pathname: string) => {
     const commonActiveClassName = 'rounded-[12px] bg-white font-bold ';
 
-    if (pathname === '/therapist') {
+    if (pathname === '/professionals') {
       return clsx(commonActiveClassName, 'text-secondary-750');
-    } else if (pathname === '/creatives' || pathname === '/about-us') {
+    } else if (pathname === '/about-us') {
       return clsx(commonActiveClassName, 'text-primary-550');
-    } else if (pathname === '/contact-us') {
+    } else if (pathname === '/creatives' || pathname === '/contact-us') {
       return clsx(commonActiveClassName, 'text-secondary-650');
     }
 

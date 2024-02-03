@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 
-import { Button } from '@/components/ui/Button';
+import CallToAction from '@/components/ui/CallToAction';
 import ContactCard from '@/components/ui/contact/ContactCard';
 import Container from '@/components/ui/Container';
 import Heading from '@/components/ui/Heading';
-import CallToAction from '@/components/ui/CallToAction';
 
 function Contact() {
   return (

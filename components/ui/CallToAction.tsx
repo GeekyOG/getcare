@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Image from 'next/image';
 import type { FunctionComponent } from 'react';
+
 import { Button } from './Button';
 
 interface Props {

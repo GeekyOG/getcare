@@ -1,11 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
-import Container from '@/components/ui/Container';
 import Heading from '@/components/ui/footer/Heading';
 import Text from '@/components/ui/footer/Text';
 import LogoBox from '@/components/ui/LogoBox';
-import Link from 'next/link';
 
 function Footer() {
   return (
@@ -24,8 +23,8 @@ function Footer() {
               <div className="flex w-[50%] flex-col gap-[32px] md:w-[154px]">
                 <Heading>PRODUCTS</Heading>
                 <div className="flex flex-col gap-[16px]">
-                  <Link href="/therapist">
-                    <Text>For Therapists</Text>
+                  <Link href="/professionals">
+                    <Text>For professionalss</Text>
                   </Link>
                   <Link href="/creatives">
                     <Text>For Creatives</Text>
@@ -77,7 +76,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="mt-20 flex flex flex-wrap gap-[32px]">
+          <div className="mt-20 flex flex-wrap gap-[32px]">
             <div className="w-[100%] rounded-[16px] bg-neutral-100 pb-[40px] pl-[20px] pt-[32px] md:w-auto md:pb-[50px] md:pl-[24px] md:pr-[57px] md:pt-[35px] lg:flex-none">
               <p className="max-w-[333px] text-[0.75rem] leading-[200%] -tracking-[0.12px] text-neutral-350 md:max-w-[826px] md:text-[1rem] md:-tracking-[0.16px]">
                 To access and use all Apple Card features and products available

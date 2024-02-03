@@ -3,17 +3,17 @@ import './homepage.css';
 import Image from 'next/image';
 
 import { Button } from '@/components/ui/Button';
+import CallToAction from '@/components/ui/CallToAction';
 import Heading from '@/components/ui/Heading';
 import Card from '@/components/ui/home/Card';
-import CallToAction from '@/components/ui/CallToAction';
 
 export default function Home() {
   return (
     <div className="mb-[-350px] flex flex-col items-center justify-between">
-      <section className="mt-[5.125rem] px-[24px] lg:mt-[4.0625rem]">
+      <section className="mt-[5.125rem] px-[24px] lg:mt-[4.5625rem]">
         <div className="relative md:mb-[6.625rem]">
           <h1 className="max-w-[49.6875rem] text-center text-[2.5rem]/[140%] font-semibold -tracking-[1.6px] lg:text-7xl/[125%] lg:-tracking-[4.32px]">
-            Discover Hope, Find Recovery, Reclaim Your Life with Us.
+            Discover A New Chapter With Therapy And Support At Your Fingertip
           </h1>
           <div className="mt-[40px] flex justify-center md:hidden">
             <Button>Download the App</Button>
@@ -31,7 +31,14 @@ export default function Home() {
             width="80"
             height={52.5}
             src="/images/home/butterfly.svg"
-            className="absolute -top-[2.1875rem] right-[120px] lg:-top-[1.5625rem] lg:right-[17.5rem]"
+            className="absolute -top-[2.1875rem] right-[120px] lg:-top-[22px] lg:right-[297px]"
+          />
+          <Image
+            alt=""
+            width="434"
+            height="482"
+            src="/images/home/mockup-mobile.png"
+            className="mx-auto mt-[3rem] block md:hidden"
           />
           <Image
             alt=""
@@ -90,7 +97,7 @@ export default function Home() {
         <div className="mx-auto max-w-[70rem] border-x border-solid border-neutral-200  px-[24px] pb-[5.25rem] pt-0 md:px-80 md:pl-[5rem] md:pr-20">
           <div className="grid gap-x-[1.625rem] gap-y-[1.75rem] md:grid-cols-1 lg:grid-cols-2">
             <Card
-              title="One on One therapy Sessions with passionate professionals"
+              title="One on One professionals Sessions with passionate professionals"
               image={{
                 src: '/images/home/doctor-img.svg',
                 alt: 'man-woman-smiling-phone-call',
@@ -118,7 +125,7 @@ export default function Home() {
               }}
             />
             <Card
-              title="One on One therapy Sessions with passionate professionals"
+              title="One on One professionals Sessions with passionate professionals"
               image={{
                 src: '/images/home/card-img-1.svg',
                 alt: 'man-woman-smiling-phone-call',
