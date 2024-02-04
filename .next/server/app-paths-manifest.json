@@ -1,4 +1,9 @@
 {
-  "/page": "app/page.js",
+  "/waitlist/for-creatives/page": "app/waitlist/for-creatives/page.js",
+  "/waitlist/for-professionals/page": "app/waitlist/for-professionals/page.js",
+  "/creatives/page": "app/creatives/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/waitlist/for-users/page": "app/waitlist/for-users/page.js",
+  "/not-found": "app/not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

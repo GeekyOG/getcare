@@ -3,9 +3,9 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import Footer from '@/components/layout/footer/Footer';
 import Navbar from '@/components/layout/navbar';
 import matter from '@/fonts/matter';
+import WhatFooter from '@/components/layout/footer/';
 
 export const metadata: Metadata = {
   title: 'Get Care',
@@ -28,7 +28,7 @@ export default function RootLayout({
         <Suspense>
           <main className="pb-[100px] pt-[130px]">{children}</main>
         </Suspense>
-        <Footer />
+        <WhatFooter />
       </body>
     </html>
   );

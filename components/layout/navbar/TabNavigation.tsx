@@ -13,6 +13,12 @@ export default function TabNavigation() {
     { path: '/faqs', title: 'FAQs' },
   ];
 
+  const waitlistRoutes = [
+    { path: '/waitlist/for-users', title: 'For Users' },
+    { path: '/waitlist/for-professionals', title: 'For Professionals' },
+    { path: '/waitlist/for-creatives', title: 'For Creatives' },
+  ];
+
   const pathname = usePathname();
 
   const getActiveLinkClassName = (pathname: string) => {
@@ -37,6 +43,18 @@ export default function TabNavigation() {
     }
   };
 
+  const getRouteTabs = () => {
+    if (pathname == '/waitlist/for-users') {
+      return true;
+    } else if (pathname == '/waitlist/for-professionals') {
+      return true;
+    } else if (pathname == '/waitlist/for-creatives') {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
   return (
     <div
       className={clsx(
@@ -44,21 +62,37 @@ export default function TabNavigation() {
         getActiveTabClassName(),
       )}
     >
-      {routes.map((route) => {
-        const isActivePath = pathname === route.path;
+      {getRouteTabs()
+        ? waitlistRoutes.map((route) => {
+            const isActivePath = pathname === route.path;
 
-        return (
-          <div
-            key={route.path}
-            className={clsx(
-              'flex h-full items-center justify-center px-3 text-sm/[140%] tracking-1 text-neutral-400 transition-all',
-              isActivePath ? getActiveLinkClassName(pathname) : '',
-            )}
-          >
-            <Link href={route.path}>{route.title}</Link>
-          </div>
-        );
-      })}
+            return (
+              <div
+                key={route.path}
+                className={clsx(
+                  'flex h-full items-center justify-center px-3 text-sm/[140%] tracking-1 text-neutral-400 transition-all',
+                  isActivePath ? getActiveLinkClassName(pathname) : '',
+                )}
+              >
+                <Link href={route.path}>{route.title}</Link>
+              </div>
+            );
+          })
+        : routes.map((route) => {
+            const isActivePath = pathname === route.path;
+
+            return (
+              <div
+                key={route.path}
+                className={clsx(
+                  'flex h-full items-center justify-center px-3 text-sm/[140%] tracking-1 text-neutral-400 transition-all',
+                  isActivePath ? getActiveLinkClassName(pathname) : '',
+                )}
+              >
+                <Link href={route.path}>{route.title}</Link>
+              </div>
+            );
+          })}
     </div>
   );
 }

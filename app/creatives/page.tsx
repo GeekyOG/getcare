@@ -5,6 +5,16 @@ import { Button } from '@/components/ui/Button';
 import Heading from '@/components/ui/Heading';
 import Sub from '@/components/ui/Sub';
 import SubHeading from '@/components/ui/SubHeading';
+import Slide from '@/components/ui/creatives/Slide';
+
+const images = [
+  { path: '/images/creatives/green.png' },
+  { path: '/images/creatives/img1.png' },
+  { path: '/images/creatives/img2.png' },
+  { path: '/images/creatives/img3.png' },
+  { path: '/images/creatives/img4.png' },
+  { path: '/images/creatives/pink.png' },
+];
 
 function Creatives() {
   return (
@@ -33,74 +43,7 @@ function Creatives() {
           </div>
         </div>
       </section>
-      <section className="-mt-[75px] overflow-x-scroll overflow-y-scroll pt-[150px] xl:overflow-visible">
-        <div className="flex w-[100vw] justify-between gap-[25px]">
-          <div className="flex-none">
-            <Image
-              src="/images/creatives/green.png"
-              alt=""
-              height={363}
-              width={130}
-              quality={100}
-            />
-          </div>
-
-          <div className="flex-none">
-            <Image
-              src="/images/creatives/img1.png"
-              alt=""
-              height={363}
-              width={261}
-              quality={100}
-            />
-          </div>
-          <div className="flex-none">
-            <Image
-              src="/images/creatives/img2.png"
-              alt=""
-              height={363}
-              width={261}
-              quality={100}
-            />
-          </div>
-          <div className="flex-none">
-            <Image
-              src="/images/creatives/img3.png"
-              alt=""
-              height={363}
-              width={261}
-              quality={100}
-            />
-          </div>
-          <div className="relative flex-none">
-            <Image
-              src="/images/creatives/img4.png"
-              alt=""
-              height={363}
-              width={261}
-              quality={100}
-            />
-            <Image
-              src="/images/creatives/ellipse.png"
-              alt=""
-              height={200}
-              width={200}
-              quality={100}
-              className="z-5 absolute -top-[150px] right-[0px]"
-            />
-          </div>
-
-          <div className="flex-none">
-            <Image
-              src="/images/creatives/pink.png"
-              alt=""
-              height={363}
-              width={130}
-              quality={100}
-            />
-          </div>
-        </div>
-      </section>
+      <Slide className="pt-[150px]" images={images} />
       <section className="mt-[100px]  px-[24px]">
         <div>
           <SubHeading>

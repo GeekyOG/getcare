@@ -69,10 +69,11 @@ export default function Navbar() {
             </div>
 
             <TabNavigation />
-
-            <Button size="md" className="hidden min-w-[147px] lg:flex">
-              Get Started
-            </Button>
+            <Link href="/waitlist/for-users">
+              <Button size="md" className="hidden min-w-[147px] lg:flex">
+                Get Started
+              </Button>
+            </Link>
 
             {/* <div
               className={`px-[1.75rem] pb-[24px] pt-[2rem] lg:hidden ${getCurrentIconWrapperClassName()}`}

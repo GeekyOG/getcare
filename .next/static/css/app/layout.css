@@ -753,6 +753,9 @@ video {
 .mt-\[67px\] {
   margin-top: 67px;
 }
+.-mt-\[5px\] {
+  margin-top: -5px;
+}
 .block {
   display: block;
 }
@@ -774,6 +777,9 @@ video {
 .h-\[150px\] {
   height: 150px;
 }
+.h-\[22px\] {
+  height: 22px;
+}
 .h-\[28px\] {
   height: 28px;
 }
@@ -782,6 +788,9 @@ video {
 }
 .h-\[2rem\] {
   height: 2rem;
+}
+.h-\[32px\] {
+  height: 32px;
 }
 .h-\[432px\] {
   height: 432px;
@@ -803,6 +812,9 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.h-\[363px\] {
+  height: 363px;
 }
 .min-h-12 {
   min-height: 3rem;
@@ -843,6 +855,9 @@ video {
 .w-\[210px\] {
   width: 210px;
 }
+.w-\[22px\] {
+  width: 22px;
+}
 .w-\[28px\] {
   width: 28px;
 }
@@ -861,11 +876,26 @@ video {
 .w-\[500px\] {
   width: 500px;
 }
+.w-\[56px\] {
+  width: 56px;
+}
 .w-\[759px\] {
   width: 759px;
 }
 .w-full {
   width: 100%;
+}
+.w-\[130px\] {
+  width: 130px;
+}
+.w-\[261px\] {
+  width: 261px;
+}
+.w-auto {
+  width: auto;
+}
+.w-\[1000px\] {
+  width: 1000px;
 }
 .min-w-\[12\.25rem\] {
   min-width: 12.25rem;
@@ -962,6 +992,9 @@ video {
 }
 .gap-1 {
   gap: 0.25rem;
+}
+.gap-10 {
+  gap: 2.5rem;
 }
 .gap-2 {
   gap: 0.5rem;
@@ -1063,6 +1096,9 @@ video {
 .rounded-\[19px\] {
   border-radius: 19px;
 }
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
 .rounded-\[8px\] {
   border-radius: 8px;
 }
@@ -1152,6 +1188,18 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-secondary-650 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(174 135 121 / var(--tw-bg-opacity));
+}
+.bg-neutral-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 13 57 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/images\/contact\/Chatmobile\.png\'\)\] {
   background-image: url('/images/contact/Chatmobile.png');
@@ -1290,6 +1338,10 @@ video {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.py-\[2rem\] {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .py-\[44px\] {
   padding-top: 44px;
   padding-bottom: 44px;
@@ -1301,6 +1353,14 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.py-\[150px\] {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .pb-20 {
   padding-bottom: 5rem;
@@ -1316,6 +1376,9 @@ video {
 }
 .pb-\[146px\] {
   padding-bottom: 146px;
+}
+.pb-\[150px\] {
+  padding-bottom: 150px;
 }
 .pb-\[196px\] {
   padding-bottom: 196px;
@@ -1403,6 +1466,9 @@ video {
 }
 .pt-\[9\.125rem\] {
   padding-top: 9.125rem;
+}
+.pt-\[50px\] {
+  padding-top: 50px;
 }
 .text-left {
   text-align: left;
@@ -2133,12 +2199,12 @@ button:focus-visible {
     position: absolute;
   }
 
-  .lg\:-top-\[1\.5625rem\] {
-    top: -1.5625rem;
+  .lg\:-top-\[22px\] {
+    top: -22px;
   }
 
-  .lg\:right-\[17\.5rem\] {
-    right: 17.5rem;
+  .lg\:right-\[297px\] {
+    right: 297px;
   }
 
   .lg\:mx-0 {
@@ -2174,8 +2240,8 @@ button:focus-visible {
     margin-top: 308px;
   }
 
-  .lg\:mt-\[4\.0625rem\] {
-    margin-top: 4.0625rem;
+  .lg\:mt-\[4\.5625rem\] {
+    margin-top: 4.5625rem;
   }
 
   .lg\:block {
@@ -2254,6 +2320,10 @@ button:focus-visible {
     gap: 25px;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:border-2 {
     border-width: 2px;
   }
@@ -2303,11 +2373,6 @@ button:focus-visible {
   .lg\:py-\[2\.3125rem\] {
     padding-top: 2.3125rem;
     padding-bottom: 2.3125rem;
-  }
-
-  .lg\:py-\[2rem\] {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .lg\:pb-\[13\.25rem\] {
